@@ -1,0 +1,455 @@
+{
+  "profile": "deepml.kernel",
+  "suite": "JA21_DMK_Suite_1.0.0",
+  "updated_datasets": [
+    {
+      "path": "corpus/technical/JA21_DMK_TECHNICAL_CORPUS_10000.jsonl.gz",
+      "records": 10000,
+      "quarantined": 5231,
+      "source_hash_mismatches": 0
+    }
+  ],
+  "master_expected_outcomes": {
+    "pass": 7500,
+    "expected_fail": 2500
+  },
+  "master_device_mismatch_field_counts": {
+    "ast.effect_set": 2848,
+    "ast.capability_requirements": 3333,
+    "semantic_interpretation.effects": 2848,
+    "semantic_interpretation.capabilities": 3333,
+    "compiler_representation.r12.effects": 2848,
+    "compiler_representation.r12.capabilities": 3333,
+    "runtime_representation.effects_observed": 2144,
+    "runtime_representation.capabilities_consumed": 2501
+  },
+  "sample_quarantined_records": [
+    {
+      "id": "DMK-00001",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.effect_set",
+          "source_target": "gpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.effects",
+          "source_target": "gpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.effects",
+          "source_target": "gpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.effects_observed",
+          "source_target": "gpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00003",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.effect_set",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.effects",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.effects",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.effects_observed",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00005",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.effect_set",
+          "source_target": "npu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.effects",
+          "source_target": "npu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.effects",
+          "source_target": "npu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.effects_observed",
+          "source_target": "npu",
+          "reported_devices": [
+            "cpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00006",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00007",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00012",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00013",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "gpu",
+          "reported_devices": [
+            "cpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00015",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.effect_set",
+          "source_target": "cpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.effects",
+          "source_target": "cpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.effects",
+          "source_target": "cpu",
+          "reported_devices": [
+            "npu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.effects_observed",
+          "source_target": "cpu",
+          "reported_devices": [
+            "npu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00017",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.effect_set",
+          "source_target": "npu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.effects",
+          "source_target": "npu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.effects",
+          "source_target": "npu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.effects_observed",
+          "source_target": "npu",
+          "reported_devices": [
+            "gpu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DMK-00018",
+      "warnings": [
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "ast.capability_requirements",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "semantic_interpretation.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "compiler_representation.r12.capabilities",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        },
+        {
+          "code": "DEVICE_TARGET_METADATA_MISMATCH",
+          "path": "runtime_representation.capabilities_consumed",
+          "source_target": "cpu",
+          "reported_devices": [
+            "gpu"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_programs_preserved": true,
+  "modeled_result_qualification": "expected labels preserved; observed_result=null; native_execution_eligible=false",
+  "scope": "Published corpus/technical gzip datasets only; historical/reconstructed documents remain unchanged.",
+  "master_qualification_by_expected_outcome": [
+    {
+      "expected": "expected_fail",
+      "qualification": "modeled_expectation_only",
+      "count": 1199
+    },
+    {
+      "expected": "expected_fail",
+      "qualification": "quarantined_metadata_conflict",
+      "count": 1301
+    },
+    {
+      "expected": "pass",
+      "qualification": "modeled_expectation_only",
+      "count": 3570
+    },
+    {
+      "expected": "pass",
+      "qualification": "quarantined_metadata_conflict",
+      "count": 3930
+    }
+  ]
+}

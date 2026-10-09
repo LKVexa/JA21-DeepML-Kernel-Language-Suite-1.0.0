@@ -1,0 +1,19 @@
+ja source 0.3
+module corpus.deepml_kernel.example_02334
+use DeepMLKernel
+policy no_network
+
+kernel DMK_02334(input: Tensor<f32>[8,48]) -> Tensor<f32>[8,48]
+target cpu
+precision strict
+determinism reproducible
+memory global
+{
+    parallel for i in 0..8 tile 32 {
+        vectorize 16
+        output[i] = input[i] * 10.0
+    }
+}
+verify bounds with checked
+assert kernel.race_free == true
+emit kernel "DMK_02334.dmk"

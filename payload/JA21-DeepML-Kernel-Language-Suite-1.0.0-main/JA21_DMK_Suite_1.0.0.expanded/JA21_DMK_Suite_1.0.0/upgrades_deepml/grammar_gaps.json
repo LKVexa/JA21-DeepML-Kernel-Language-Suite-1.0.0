@@ -1,0 +1,10 @@
+{
+  "grammar": "specifications/DEEPML_KERNEL_LANGUAGE.ebnf",
+  "status": "incomplete_specification",
+  "undefined_references": [
+    "atomic_stmt",
+    "barrier_stmt"
+  ],
+  "editorial_extension_reachable_from_program": null,
+  "authority": "Static production-reference inspection only; no syntax or semantic conformance claim."
+}

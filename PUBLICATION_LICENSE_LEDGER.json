@@ -1,0 +1,107 @@
+{
+  "repository": "JA21-DeepML-Kernel-Language-Suite-1.0.0",
+  "copyright": "JA21-DeepML-Kernel-Language-Suite-1.0.0 (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "a9e7463c93ca54011fb9048f3aa4515616f51625dbb636ddb3ce88c16539d064",
+      "current_bytes": 111
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "5cbb269dd914e115d6ce0a77c538e532d388f5c758b1dcf210a7b2989c4a3cc6",
+      "current_bytes": 35261
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "27e4fe86ddaae48f008b777865fdd0791807a60755a86a8f4789b790249f3cc3",
+      "current_bytes": 380
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "3b810b17d5499ff524325420490c592b7fc8c47b7e3fd8bce2da7a447eb32a03",
+      "original_bytes": 317054,
+      "current_sha256": "979b8c828bbc0011bc6e6e7248740055f1c5dddfa7e79841a278d52104844454",
+      "current_bytes": 311764
+    },
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/README.md",
+      "action": "modified",
+      "reason": "Reconcile current package licensing statement",
+      "original_sha256": "68a28c733097f57ae9e2ef00324468608d9f9534373cb5d0b73a3bf58dc09950",
+      "original_bytes": 4144,
+      "current_sha256": "03341fb0556c881bf0cbaa67c6250d6c865b3dee2d4d6342cbc170f58e0d5323",
+      "current_bytes": 4070
+    },
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/MANIFEST.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "1f6d349ae4d65e12e06f32a60eb22e501ecf86ade1d1529fb43c1e01d67308ee",
+      "original_bytes": 199505,
+      "current_sha256": "79c2ed552f5ff1454626d68e0916c44a6f31043a92013a5dd103ae8c1419c8f8",
+      "current_bytes": 199505
+    },
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/SHA256SUMS.txt",
+      "action": "modified",
+      "reason": "Refresh current checksum records for licensing edits",
+      "original_sha256": "2e10fafaf2c7af4e23091c1cc4ff8238e085a4c8f93d26ca436dc2affcfdf0b9",
+      "original_bytes": 129225,
+      "current_sha256": "c063e360db92798fa4b4438ce863755e596da68f44c919a57e9402b2b2ce76fa",
+      "current_bytes": 129225
+    },
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/LICENSE.txt",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_bytes": 11358,
+      "current_sha256": "5cbb269dd914e115d6ce0a77c538e532d388f5c758b1dcf210a7b2989c4a3cc6",
+      "current_bytes": 35261
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/MANIFEST.json",
+      "covered_changes": [
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/README.md"
+      ]
+    },
+    {
+      "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/SHA256SUMS.txt",
+      "covered_changes": [
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/README.md",
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/MANIFEST.json"
+      ]
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "covered_changes": [
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/MANIFEST.json",
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/manifests/SHA256SUMS.txt",
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/README.md",
+        "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/LICENSE.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}

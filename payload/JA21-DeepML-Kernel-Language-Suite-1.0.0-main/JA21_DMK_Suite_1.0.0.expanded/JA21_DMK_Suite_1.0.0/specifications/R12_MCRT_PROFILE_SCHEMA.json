@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ja21:dmk:r12-mcrt-profile:1.0.0",
+  "title": "JA21 DMK R12 and MCRT Evidence Pair",
+  "type": "object",
+  "required": [
+    "r12",
+    "mcrt"
+  ],
+  "properties": {
+    "r12": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "statement_identity",
+        "node_identity",
+        "language_profile",
+        "semantic_operator",
+        "type",
+        "effects",
+        "capabilities",
+        "policy_decision",
+        "input_hashes",
+        "state",
+        "error_status",
+        "confidence",
+        "proof_status",
+        "mcrt_reference",
+        "canonical_tuple"
+      ]
+    },
+    "mcrt": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "record_type",
+        "schema_version",
+        "profile",
+        "source_hash",
+        "ast_node",
+        "semantic_judgment",
+        "r12_record",
+        "determinism_class",
+        "policy_status",
+        "confidence",
+        "certification_status",
+        "canonical_record"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

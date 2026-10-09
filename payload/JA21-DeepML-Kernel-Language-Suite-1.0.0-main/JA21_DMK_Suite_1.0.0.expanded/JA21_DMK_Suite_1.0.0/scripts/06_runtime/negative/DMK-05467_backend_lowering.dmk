@@ -1,0 +1,19 @@
+ja source 0.3
+module corpus.deepml_kernel.example_05467
+use DeepMLKernel
+policy no_network
+
+kernel DMK_05467(input: Tensor<f32>[37,64]) -> Tensor<f32>[37,64]
+target gpu
+precision strict
+determinism reproducible
+memory global
+{
+    parallel for i in 0..37 tile 32 {
+        vectorize 16
+        output[i] = input[i] * 12.0
+    }
+}
+verify bounds with unchecked
+assert kernel.race_free == false
+emit kernel "DMK_05467.dmk"

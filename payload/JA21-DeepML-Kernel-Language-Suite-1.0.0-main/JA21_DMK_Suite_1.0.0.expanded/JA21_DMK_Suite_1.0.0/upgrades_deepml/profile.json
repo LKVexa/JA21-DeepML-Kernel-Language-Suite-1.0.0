@@ -1,0 +1,6 @@
+{
+  "profile": "deepml.kernel",
+  "source_version": "0.3",
+  "schema_path": "corpus/schema/CORPUS_SCHEMA.json",
+  "master": "JA21_DMK_TECHNICAL_CORPUS_10000.jsonl.gz"
+}

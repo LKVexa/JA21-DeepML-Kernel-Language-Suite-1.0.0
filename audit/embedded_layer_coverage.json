@@ -1,0 +1,70 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/CORPUS_SCHEMA.json",
+      "content_bytes": 8240,
+      "content_sha256": "09f532604fa25430c96a12ab90a777b4941c2176de1b5e878b8fe63fe30e6cf0",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/deepml-kernel_corpus_10000.jsonl",
+      "content_bytes": 59704280,
+      "content_sha256": "115843d71557b7cea59ee229262c7232a2b45483bfd8069157c80323fc90b5be",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 10001,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/deepml-kernel_index.csv",
+      "content_bytes": 3439306,
+      "content_sha256": "305766396f40f471f82aa758c2b43780f8b7ad119c07b90e9bb2933e552b161f",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/MANIFEST.json",
+      "content_bytes": 9034,
+      "content_sha256": "ef2b22cd50e03b0bf65a8817f3220cdcd0a0bb1cb056f8812ce885fbd9e1e5e0",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/README.md",
+      "content_bytes": 4558,
+      "content_sha256": "e0bf8e7e31a242994f6829c9fbf72074b0960dd862490464a2fab3bf2a1cdf76",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/SAMPLES.md",
+      "content_bytes": 94031,
+      "content_sha256": "2b90d9792be70622ba7337c588cdf826116da94d70f6011fc0d0d96f16141b35",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/SHA256SUMS.txt",
+      "content_bytes": 917,
+      "content_sha256": "48470fbf7f4ddb11178cda6a65a2300f7b05a76b2201fc79f0bfb6bae4e118e0",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

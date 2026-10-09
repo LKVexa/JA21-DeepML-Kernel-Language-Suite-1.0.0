@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "authority": "schema, hashes, standalone policy, metadata qualification and master/shard equality only",
+  "native_language_conformance": "not_tested",
+  "profile": "deepml.kernel",
+  "unique_master_records": 10000,
+  "datasets": [
+    {
+      "path": "corpus/technical/JA21_DMK_TECHNICAL_CORPUS_10000.jsonl.gz",
+      "records": 10000,
+      "quarantined_records": 5231,
+      "schema_hash_policy_errors": 0
+    }
+  ],
+  "failures": [],
+  "validator_engine": {
+    "package": "jsonschema",
+    "version": "4.25.1",
+    "draft": "2020-12",
+    "external_references": "refused"
+  }
+}

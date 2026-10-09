@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/catalogs/SCRIPT_CATALOG.jsonl",
+    "current_sha256": "56974a2e930434497d73f1ac9444475abd1482cb2db50cd18bbd2b8cc70b9f14",
+    "source_sha256": "56974a2e930434497d73f1ac9444475abd1482cb2db50cd18bbd2b8cc70b9f14",
+    "stored_jsonl_rows": 1000,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+    "current_sha256": "b0ddd3a4690730ab6ebb9b43074fea6373c8fb7ed5521ef5b5b0b192c28d1467",
+    "source_sha256": "b0ddd3a4690730ab6ebb9b43074fea6373c8fb7ed5521ef5b5b0b192c28d1467",
+    "stored_jsonl_rows": 7,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/reconstructed/deepml-kernel_corpus_10000.jsonl",
+    "current_sha256": "115843d71557b7cea59ee229262c7232a2b45483bfd8069157c80323fc90b5be",
+    "source_sha256": "115843d71557b7cea59ee229262c7232a2b45483bfd8069157c80323fc90b5be",
+    "stored_jsonl_rows": 10001,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/technical/JA21_DMK_TECHNICAL_CORPUS_10000.jsonl.gz",
+    "current_sha256": "eb7532b75da44af780f8a0f7df2210915ab1240ef7ee36a4ab25f2ac57837bc0",
+    "source_sha256": "dfa9ac31b2f6d221815f5e8acce923dfc877a544dc80cc321b9c0c0c39857eb3",
+    "stored_jsonl_rows": 10000,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  }
+]

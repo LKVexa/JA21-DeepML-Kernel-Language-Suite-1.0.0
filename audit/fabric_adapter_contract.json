@@ -1,0 +1,12 @@
+{
+  "profile": "deepml.kernel",
+  "proposed_contribution": "Device kernels, memory spaces, bounds, race and precision contracts",
+  "reuse_boundary": "Rederive device metadata through a native frontend and require verified target authority and execution evidence.",
+  "source_archive_sha256": "a6e7b0e2418e4dbc7ca66514f5df8e83a16935aff02ce4a0a3f557db8f3ff1c1",
+  "source_evidence_paths": [
+    "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/specifications/LANGUAGE_SPECIFICATION.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

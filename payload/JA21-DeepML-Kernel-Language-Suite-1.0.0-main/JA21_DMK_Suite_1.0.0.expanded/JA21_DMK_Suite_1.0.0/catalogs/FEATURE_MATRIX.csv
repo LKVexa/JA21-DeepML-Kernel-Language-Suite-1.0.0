@@ -1,0 +1,32 @@
+feature,track,record_count,first_record,last_record
+atomic_operation,Correctness & assurance,324,DMK-00007,DMK-09994
+autodiff_primitive,Compiler & optimization,323,DMK-00003,DMK-09990
+backend_lowering,Compiler & optimization,322,DMK-00022,DMK-09978
+barrier,Correctness & assurance,323,DMK-00002,DMK-09989
+bounds_proof,Correctness & assurance,322,DMK-00017,DMK-09973
+custom_operator,Compiler & optimization,323,DMK-00012,DMK-09999
+determinism_mode,Correctness & assurance,322,DMK-00030,DMK-09986
+device_target,Device & deployment,323,DMK-00001,DMK-09988
+device_transfer,Memory & movement,323,DMK-00004,DMK-09991
+global_memory,Memory & movement,322,DMK-00029,DMK-09985
+kernel_fusion,Compiler & optimization,324,DMK-00008,DMK-09995
+launch_dimensions,Parallel execution,323,DMK-00010,DMK-09997
+layout,Memory & movement,322,DMK-00014,DMK-09970
+local_memory,Memory & movement,323,DMK-00011,DMK-09998
+memory_space,Memory & movement,322,DMK-00023,DMK-09979
+parallel_loop,Parallel execution,322,DMK-00015,DMK-09971
+precision_mode,Compiler & optimization,322,DMK-00021,DMK-09977
+quantized_type,Types & shapes,322,DMK-00016,DMK-09972
+race_analysis,Correctness & assurance,322,DMK-00026,DMK-09982
+reduction,Compiler & optimization,322,DMK-00024,DMK-09980
+scalar_type,Types & shapes,322,DMK-00031,DMK-09987
+shared_memory,Memory & movement,322,DMK-00020,DMK-09976
+simd,Parallel execution,324,DMK-00006,DMK-09993
+sparse_type,Types & shapes,322,DMK-00025,DMK-09981
+static_shape,Types & shapes,322,DMK-00018,DMK-09974
+stride,Memory & movement,324,DMK-00005,DMK-09992
+symbolic_shape,Types & shapes,322,DMK-00027,DMK-09983
+tensor_type,Types & shapes,324,DMK-00009,DMK-09996
+tiling,Parallel execution,322,DMK-00019,DMK-09975
+tolerance_equivalence,Correctness & assurance,323,DMK-00013,DMK-10000
+vectorization,Parallel execution,322,DMK-00028,DMK-09984

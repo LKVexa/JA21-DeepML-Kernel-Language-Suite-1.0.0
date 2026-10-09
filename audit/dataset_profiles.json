@@ -1,0 +1,1422 @@
+[
+  {
+    "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/catalogs/SCRIPT_CATALOG.jsonl",
+    "records": 1000,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 939110,
+    "uncompressed_sha256": "56974a2e930434497d73f1ac9444475abd1482cb2db50cd18bbd2b8cc70b9f14",
+    "key_counts": {
+      "script_path": 1000,
+      "record_id": 1000,
+      "sequence": 1000,
+      "level": 1000,
+      "validation_class": 1000,
+      "feature": 1000,
+      "track": 1000,
+      "expected_status": 1000,
+      "diagnostic_code": 1000,
+      "source_sha256": 1000,
+      "semantic_id": 1000,
+      "r12_id": 1000,
+      "mcrt_id": 1000,
+      "technical_explanation": 1000
+    },
+    "field_types": {
+      "script_path": {
+        "str": 1000
+      },
+      "record_id": {
+        "str": 1000
+      },
+      "sequence": {
+        "int": 1000
+      },
+      "level": {
+        "str": 1000
+      },
+      "validation_class": {
+        "str": 1000
+      },
+      "feature": {
+        "str": 1000
+      },
+      "track": {
+        "str": 1000
+      },
+      "expected_status": {
+        "str": 1000
+      },
+      "diagnostic_code": {
+        "str": 1000
+      },
+      "source_sha256": {
+        "str": 1000
+      },
+      "semantic_id": {
+        "str": 1000
+      },
+      "r12_id": {
+        "str": 1000
+      },
+      "mcrt_id": {
+        "str": 1000
+      },
+      "technical_explanation": {
+        "str": 1000
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "script_path": "scripts/01_beginner/positive/DMK-00007_atomic_operation.dmk",
+        "record_id": "DMK-00007",
+        "sequence": 7,
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "atomic_operation",
+        "track": "Correctness & assurance",
+        "expected_status": "pass",
+        "diagnostic_code": "",
+        "source_sha256": "9a24410edae0e02d521436878e169d87feb0efa9b8d20c679c06740db6505a16",
+        "semantic_id": "sem-5788d5755ff24bec7823",
+        "r12_id": "r12-8bc016114dd020bf69b0",
+        "mcrt_id": "mcrt-3260607c512a642d1225",
+        "technical_explanation": "Demonstrates atomic operation at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution."
+      },
+      {
+        "script_path": "scripts/01_beginner/positive/DMK-00008_kernel_fusion.dmk",
+        "record_id": "DMK-00008",
+        "sequence": 8,
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "kernel_fusion",
+        "track": "Compiler & optimization",
+        "expected_status": "pass",
+        "diagnostic_code": "",
+        "source_sha256": "6c17f8ec06c506d86f71d1dd2a7daed77ab053a7919869fcf65172529c801c32",
+        "semantic_id": "sem-11b28671fdbba683aa19",
+        "r12_id": "r12-4b9063312b34524917f8",
+        "mcrt_id": "mcrt-bc2313c9055c728b02d0",
+        "technical_explanation": "Demonstrates kernel fusion at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution."
+      },
+      {
+        "script_path": "scripts/01_beginner/positive/DMK-00031_scalar_type.dmk",
+        "record_id": "DMK-00031",
+        "sequence": 31,
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "scalar_type",
+        "track": "Types & shapes",
+        "expected_status": "pass",
+        "diagnostic_code": "",
+        "source_sha256": "ea6011c164afba3b767db4c487834c342063228d7144044f88f57167f2231d24",
+        "semantic_id": "sem-df70b55d44c54fb6a8c0",
+        "r12_id": "r12-120677ab2eaff8772fcc",
+        "mcrt_id": "mcrt-1fd506125c389b693ca5",
+        "technical_explanation": "Demonstrates scalar type at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution."
+      }
+    ]
+  },
+  {
+    "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/DeepML_Kernel_Language_Coupling_Mechanics_Corpus.original.jsonl.gz",
+    "records": 7,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 68145593,
+    "uncompressed_sha256": "84e6d3e4d5437ac5bafeb7b1862754f487a08905293576ae00a862169becbf8b",
+    "key_counts": {
+      "original_id": 7,
+      "rewritten_text": 7,
+      "changes_summary": 7,
+      "confidence_score": 7
+    },
+    "field_types": {
+      "original_id": {
+        "str": 7
+      },
+      "rewritten_text": {
+        "str": 7
+      },
+      "changes_summary": {
+        "dict": 7
+      },
+      "confidence_score": {
+        "float": 7
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/CORPUS_SCHEMA.json",
+        "rewritten_text": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JA Full-Stack Corpus Record\",\n  \"type\": \"object\",\n  \"required\": [\n    \"record_id\",\n    \"language\",\n    \"profile_id\",\n    \"source\",\n    \"semantic_interpretation\",\n    \"ast\",\n    \"compiler_representation\",\n    \"runtime_representation\",\n    \"technical_explanation\",\n    \"validation_result\",\n    \"optimization_notes\"\n  ],\n  \"properties\": {\n    \"record_id\": {\n      \"type\": \"string\"\n    },\n    \"sequence\": {\n      \"type\": \"integer\",\n      \"minimum\": 1\n    },\n    \"language\": {\n      \"type\": \"string\"\n    },\n    \"profile_id\": {\n      \"type\": \"string\"\n    },\n    \"extension\": {\n      \"type\": \"string\"\n    },\n    \"level\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"beginner\",\n        \"intermediate\",\n        \"advanced\",\n        \"expert\",\n        \"compiler\",\n        \"runtime\",\n        \"optimization\",\n        \"validation\",\n        \"certification\",\n        \"deployment\"\n      ]\n    },\n    \"validation_class\": {\n      \"type\": \"string\"\n    },\n    \"feature\": {\n      \"type\": \"string\"\n    },\n    \"source\": {\n      \"type\": \"string\"\n    },\n    \"semantic_interpretation\": {\n      \"type\": \"object\"\n    },\n    \"ast\": {\n      \"type\": \"object\"\n    },\n    \"compiler_representation\": {\n      \"type\": \"object\"\n    },\n    \"runtime_representation\": {\n      \"type\": \"object\"\n    },\n    \"technical_explanation\": {\n      \"type\": \"string\"\n    },\n    \"validation_result\": {\n      \"type\": \"object\"\n    },\n    \"optimization_notes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"_coupling_mechanics\": {\n     [preview truncated]",
+        "changes_summary": {
+          "normalized_terminology": [
+            "S^3 fiber",
+            "latent five-dimensional center",
+            "penteract field"
+          ],
+          "framework_insertions": [
+            "five-dimensional L1 shell law",
+            "fifth-coordinate residual and admission gate",
+            "pairwise W_ij and optional triadic H_ijk coupling"
+          ],
+          "preservation_note": "Original language records, identifiers, executable tokens, and non-coupling factual content were preserved. Only the coupling-mechanics integration, examples, annotations, and machine-readable math profile were upgraded to the 8S penteract-S^3 law.",
+          "conflicts": [],
+          "clarifications": [
+            "The fifth coordinate must add residual information outside span(C4) and must improve held-out efficacy after compute and energy cost.",
+            "A five-dimensional base with an S^3 fiber is locally eight-dimensional where noncollapsed, but is not automatically the standard sphere S^8.",
+            "Latent dimensionality and higher-order interaction are distinct: H_ijk is required for triadic mechanics."
+          ],
+          "additional_data_required": [
+            "original state matrix C4 and proposed fifth-coordinate vector e",
+            "penteract metric G5 and sparse adjacency A or W",
+            "optional sparse triadic tensor H"
+          ],
+          "source_note": "Russell Philip Smithson, 8S Coupled Mechanics: A Penteract-S^3 Hyperfiber Law and Proclamation, July 2026",
+          "framework_version": "Smithson 8S Coupled Mechanics v1.0",
+          "parse_errors": 0
+        },
+        "confidence_score": 0.96
+      },
+      {
+        "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/deepml-kernel_corpus_10000.jsonl",
+        "rewritten_text": "{\"_document_coupling_mechanics\":{\"framework\":\"Smithson 8S Coupled Mechanics v1.0\",\"status\":\"Proposed generative and computational law; not an established physical law, not the standard sphere S^8 without separate topological proof, and not evidence of physical quantum entanglement.\",\"author\":\"Russell Philip Smithson\",\"analytical_support_layers\":[\"SOPHIA\",\"CHARLOTTE\",\"LANDON\"],\"canonical_terms\":{\"object\":\"S^3 fiber\",\"base\":\"five-dimensional penteract field B^5=[-1,1]^5\",\"hidden_center\":\"latent five-dimensional center\",\"fifth_coordinate\":\"elucidation coordinate t8 with declared independent semantic or mechanical meaning\",\"visible_center\":\"projected center\",\"pairwise_interaction\":\"sparse geometric-semantic classical coupling\",\"higher_order_interaction\":\"selective triadic coupling\",\"visual_overlap\":\"projected three-dimensional overlap\",\"total_space\":\"locally eight-dimensional noncollapsed penteract-S^3 hyperfiber system\"},\"equations\":{\"coordinate_extension\":\"C5=[C4|e]\",\"independent_residual\":\"e_perp=(I-C4*C4^+)e\",\"independence_score\":\"eta_ind=||e_perp||_2^2/(||e||_2^2+epsilon)\",\"driver\":\"q(tau)=sin^2(pi*tau/T)\",\"candidate_site\":\"c_n=ell*n, n in Z^5, ||n||_1<=M\",\"shell_multiplicity\":\"A_5(m)=sum_{j=1}^{min(5,m)} 2^j*C(5,j)*C(m-1,j-1); A_5(0)=1\",\"coupling_weight\":\"W_ij=A_ij*exp(-((c_i-c_j)^T G5 (c_i-c_j))/(2 sigma_c^2)-d_J(i,j)^2/(2 sigma_J^2))\",\"phase_dynamics\":\"dtheta_i/dtau=omega_i+K2*sum_j W_ij*sin(theta_j-theta_i)+K3*sum_{j,k} H_ijk*sin(theta_j+theta_k-2theta_i)\",\"activation_score\":\"h_i=beta(Mq+1/2-d_i)+a_E E_i+a_u u_i-a_chi chi_i-a_zeta zeta_i+J2*sum_j W_ij(2p_j-1)+J3*sum_{j [preview truncated]",
+        "changes_summary": {
+          "normalized_terminology": [
+            "S^3 fiber",
+            "latent five-dimensional center",
+            "penteract field"
+          ],
+          "framework_insertions": [
+            "five-dimensional L1 shell law",
+            "fifth-coordinate residual and admission gate",
+            "pairwise W_ij and optional triadic H_ijk coupling"
+          ],
+          "preservation_note": "Original language records, identifiers, executable tokens, and non-coupling factual content were preserved. Only the coupling-mechanics integration, examples, annotations, and machine-readable math profile were upgraded to the 8S penteract-S^3 law.",
+          "conflicts": [],
+          "clarifications": [
+            "The fifth coordinate must add residual information outside span(C4) and must improve held-out efficacy after compute and energy cost.",
+            "A five-dimensional base with an S^3 fiber is locally eight-dimensional where noncollapsed, but is not automatically the standard sphere S^8.",
+            "Latent dimensionality and higher-order interaction are distinct: H_ijk is required for triadic mechanics."
+          ],
+          "additional_data_required": [
+            "original state matrix C4 and proposed fifth-coordinate vector e",
+            "penteract metric G5 and sparse adjacency A or W",
+            "optional sparse triadic tensor H"
+          ],
+          "source_note": "Russell Philip Smithson, 8S Coupled Mechanics: A Penteract-S^3 Hyperfiber Law and Proclamation, July 2026",
+          "framework_version": "Smithson 8S Coupled Mechanics v1.0",
+          "parse_errors": 0
+        },
+        "confidence_score": 0.95
+      },
+      {
+        "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/deepml-kernel_index.csv",
+        "rewritten_text": "record_id,sequence,level,validation_class,feature,expected_status,source_sha256,r12_id,mcrt_id,coupling_mechanics_example,coupling_mechanics_annotation\nDMK-00001,1,beginner,positive,device_target,pass,16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794,r12-2e14ba37424f82e619fb,mcrt-11fd0625002ece1813c4,Example: g5>tol5 and g3<=tol3 => PROJECTION_ONLY; retain delta8 and gJ,\"Requires C4,e,G5,W,H,p/support,phases,Pi5,g5,delta8,g3,gJ,tolerances,provenance,Delta_8S,replay_id\"\nDMK-00002,2,beginner,positive,barrier,pass,c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d,r12-3dee2859866a66765d97,mcrt-536e72b57197f4c3aa84,Example: g5>tol5 and g3<=tol3 => PROJECTION_ONLY; retain delta8 and gJ,\"Requires C4,e,G5,W,H,p/support,phases,Pi5,g5,delta8,g3,gJ,tolerances,provenance,Delta_8S,replay_id\"\nDMK-00003,3,beginner,positive,autodiff_primitive,pass,c4f85a63b4882dcf4a546ff7899e6689b04059f656a7495c904c5f88e091dd70,r12-b04dc9a4327fa10f5e80,mcrt-b2e4f17bda4dbadaa65f,Example: g5>tol5 and g3<=tol3 => PROJECTION_ONLY; retain delta8 and gJ,\"Requires C4,e,G5,W,H,p/support,phases,Pi5,g5,delta8,g3,gJ,tolerances,provenance,Delta_8S,replay_id\"\nDMK-00004,4,beginner,positive,device_transfer,pass,b79e36f0095a20532d65147b7fdc11fdc11a222e4329a3199dad5320a77cf6b8,r12-8396108f7f8be76302b8,mcrt-61514b922e8487568ccf,Example: g5>tol5 and g3<=tol3 => PROJECTION_ONLY; retain delta8 and gJ,\"Requires C4,e,G5,W,H,p/support,phases,Pi5,g5,delta8,g3,gJ,tolerances,provenance,Delta_8S,replay_id\"\nDMK-00005,5,beginner,positive,stride,pass,9e850dff79e08379e0aa09046ad1edff21d8c1468d40ca54f0b7a4546 [preview truncated]",
+        "changes_summary": {
+          "normalized_terminology": [
+            "S^3 fiber",
+            "latent five-dimensional center",
+            "penteract field"
+          ],
+          "framework_insertions": [
+            "five-dimensional L1 shell law",
+            "fifth-coordinate residual and admission gate",
+            "pairwise W_ij and optional triadic H_ijk coupling"
+          ],
+          "preservation_note": "Original language records, identifiers, executable tokens, and non-coupling factual content were preserved. Only the coupling-mechanics integration, examples, annotations, and machine-readable math profile were upgraded to the 8S penteract-S^3 law.",
+          "conflicts": [],
+          "clarifications": [
+            "The fifth coordinate must add residual information outside span(C4) and must improve held-out efficacy after compute and energy cost.",
+            "A five-dimensional base with an S^3 fiber is locally eight-dimensional where noncollapsed, but is not automatically the standard sphere S^8.",
+            "Latent dimensionality and higher-order interaction are distinct: H_ijk is required for triadic mechanics."
+          ],
+          "additional_data_required": [
+            "original state matrix C4 and proposed fifth-coordinate vector e",
+            "penteract metric G5 and sparse adjacency A or W",
+            "optional sparse triadic tensor H"
+          ],
+          "source_note": "Russell Philip Smithson, 8S Coupled Mechanics: A Penteract-S^3 Hyperfiber Law and Proclamation, July 2026",
+          "framework_version": "Smithson 8S Coupled Mechanics v1.0",
+          "parse_errors": 0
+        },
+        "confidence_score": 0.91
+      }
+    ]
+  },
+  {
+    "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/source/reconstructed/deepml-kernel_corpus_10000.jsonl",
+    "records": 10001,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 59704280,
+    "uncompressed_sha256": "115843d71557b7cea59ee229262c7232a2b45483bfd8069157c80323fc90b5be",
+    "key_counts": {
+      "_document_coupling_mechanics": 1,
+      "original_id": 1,
+      "record_id": 10000,
+      "sequence": 10000,
+      "language": 10000,
+      "profile_id": 10000,
+      "extension": 10000,
+      "corpus_version": 10000,
+      "kernel_version": 10000,
+      "level": 10000,
+      "validation_class": 10000,
+      "feature": 10000,
+      "source": 10000,
+      "semantic_interpretation": 10000,
+      "ast": 10000,
+      "compiler_representation": 10000,
+      "runtime_representation": 10000,
+      "technical_explanation": 10000,
+      "validation_result": 10000,
+      "optimization_notes": 10000,
+      "_coupling_mechanics": 10000
+    },
+    "field_types": {
+      "_document_coupling_mechanics": {
+        "dict": 1
+      },
+      "original_id": {
+        "str": 1
+      },
+      "record_id": {
+        "str": 10000
+      },
+      "sequence": {
+        "int": 10000
+      },
+      "language": {
+        "str": 10000
+      },
+      "profile_id": {
+        "str": 10000
+      },
+      "extension": {
+        "str": 10000
+      },
+      "corpus_version": {
+        "str": 10000
+      },
+      "kernel_version": {
+        "str": 10000
+      },
+      "level": {
+        "str": 10000
+      },
+      "validation_class": {
+        "str": 10000
+      },
+      "feature": {
+        "str": 10000
+      },
+      "source": {
+        "str": 10000
+      },
+      "semantic_interpretation": {
+        "dict": 10000
+      },
+      "ast": {
+        "dict": 10000
+      },
+      "compiler_representation": {
+        "dict": 10000
+      },
+      "runtime_representation": {
+        "dict": 10000
+      },
+      "technical_explanation": {
+        "str": 10000
+      },
+      "validation_result": {
+        "dict": 10000
+      },
+      "optimization_notes": {
+        "list": 10000
+      },
+      "_coupling_mechanics": {
+        "dict": 10000
+      }
+    },
+    "profiles": {
+      "language=DeepML Kernel Language": 10000
+    },
+    "samples": [
+      {
+        "_document_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "status": "Proposed generative and computational law; not an established physical law, not the standard sphere S^8 without separate topological proof, and not evidence of physical quantum entanglement.",
+          "author": "Russell Philip Smithson",
+          "analytical_support_layers": [
+            "SOPHIA",
+            "CHARLOTTE",
+            "LANDON"
+          ],
+          "canonical_terms": {
+            "object": "S^3 fiber",
+            "base": "five-dimensional penteract field B^5=[-1,1]^5",
+            "hidden_center": "latent five-dimensional center",
+            "fifth_coordinate": "elucidation coordinate t8 with declared independent semantic or mechanical meaning",
+            "visible_center": "projected center",
+            "pairwise_interaction": "sparse geometric-semantic classical coupling",
+            "higher_order_interaction": "selective triadic coupling",
+            "visual_overlap": "projected three-dimensional overlap",
+            "total_space": "locally eight-dimensional noncollapsed penteract-S^3 hyperfiber system"
+          },
+          "equations": {
+            "coordinate_extension": "C5=[C4|e]",
+            "independent_residual": "e_perp=(I-C4*C4^+)e",
+            "independence_score": "eta_ind=||e_perp||_2^2/(||e||_2^2+epsilon)",
+            "driver": "q(tau)=sin^2(pi*tau/T)",
+            "candidate_site": "c_n=ell*n, n in Z^5, ||n||_1<=M",
+            "shell_multiplicity": "A_5(m)=sum_{j=1}^{min(5,m)} 2^j*C(5,j)*C(m-1,j-1); A_5(0)=1",
+            "coupling_weight": "W_ij=A_ij*exp(-((c_i-c_j)^T G5 (c_i-c_j))/(2 sigma_c^2)-d_J(i,j)^2/(2 sigma_J^2))",
+            "phase_dynamics": "dtheta_i/dtau=omega_i+K2*sum_j W_ij*sin(theta_j-theta_i)+K3*sum_{j,k} H_ijk*sin(theta_j+theta_k-2theta_i)",
+            "activation_score": "h_i=beta(Mq+1/2-d_i)+a_E E_i+a_u u_i-a_chi chi_i-a_zeta zeta_i+J2*sum_j W_ij(2p_j-1)+J3*sum_{j,k} H_ijk(2p_j-1)(2p_k-1)",
+            "activation": "p_i=sigma(h_i)=1/(1+exp(-h_i))",
+            "smooth_boundary": "B_5,infinity(c_i)=prod_{a=4}^{8} b(c_{i,a})",
+            "effective_support": "s_i=p_i*kappa_i*(1-chi_i)*(1-zeta_i)*v(omega_i)",
+            "radius": "r_i=r_max*B_5,infinity(c_i)^alpha*s_i^(1/3)",
+            "fiber": "F_i=S^3_{r_i}={y in R^4: ||y||_2=r_i}",
+            "fiber_volume": "Vol(S^3_{r_i})=2*pi^2*r_max^3*B_5,infinity(c_i)^(3alpha)*s_i",
+            "total_space": "X8(tau)={(c,y) in [-1,1]^5 x R^4: ||y||_2=R(c,tau)}",
+            "full_projection": "x_i^(3)(u,tau)=[Pi5(tau)|Psi4(tau)]*[c_i;r_i*u], u in S^3",
+            "latent_5d_gap": "g5_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j))-(lambda_i+lambda_j)",
+            "product_state_separation": "delta8_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j)+(r_i-r_j)^2)",
+            "projected_gap": "g3_ij=||Pi5*c_i-Pi5*c_j||_2-(rhat_i+rhat_j)",
+            "semantic_gap": "gJ_ij=d_J(J_i,J_j)-theta_J",
+            "efficacy_gain": "Delta_8S=Score(M8)-Score(M7)",
+            "admission_gate": "Admit(8S) iff eta_ind>=epsilon_ind and Delta_8S>epsilon_gain"
+          },
+          "relation_test": {
+            "inputs": [
+              "g5_ij",
+              "delta8_ij",
+              "g3_ij"
+            ],
+            "classification_order": [
+              "UNRESOLVED when an uncertainty interval crosses a declared tolerance or required evidence/provenance is missing",
+              "CONTRADICTION when K_ij>=theta_K",
+              "HIGHER_ORDER when a triadic term changes the pairwise result"
+            ],
+            "scale": "L=max(ell,r_max,lambda_i,lambda_j,||c_i-c_j||_G5)",
+            "tol5": "1e-7 L unless a stricter profile is declared",
+            "tol8": "1e-7 L unless a stricter profile is declared",
+            "tol3": "1e-5 L unless a stricter rendering profile is declared",
+            "tolJ": "declared semantic-distance tolerance",
+            "observability": "A single 3x5 base projection has nullspace dimension at least two; stacked views require rank 5 for unique linear center reconstruction."
+          },
+          "r12_profile": {
+            "identity_schema": "8S law version and penteract profile",
+            "latent_geometry": "c_i, G5, shell, fifth-coordinate meaning",
+            "activation_support": "p_i, kappa_i, chi_i, zeta_i, s_i",
+            "phase_coupling": "theta_i, W_ij, H_ijk, interaction order",
+            "projection_tests": "g5, delta8, g3, gJ, projection version, tolerance profile",
+            "certification": "eta_ind, Delta_8S, relation class, limitations",
+            "fold_invariant": "document-level folding must preserve contradiction, uncertainty, provenance, projection version, and the interaction order that changed the result"
+          },
+          "execution_policy": {
+            "default": "sparse pairwise neighborhoods",
+            "escalation": "activate triadic terms only in unresolved, contradictory, high-risk, or certification-critical clusters",
+            "complexity_target": "O(Nk) pairwise sparse execution with selective higher-order escalation rather than unrestricted O(N^3) triads"
+          },
+          "validation_gate": {
+            "compare_models": "fit M7 and M8 to the same data and evaluate held-out results",
+            "required_tests": [
+              "nonredundancy",
+              "interpretability",
+              "predictive or certifying gain"
+            ],
+            "replay_requirements": {
+              "independence_score_difference": "<=1e-8",
+              "center_radius_phase_difference": "<=1e-7 L with wrapped phase <=1e-6 radians",
+              "relation_class_and_tuple_hash": "identical",
+              "interaction_order": "identical"
+            }
+          },
+          "example": "When g5>tol5 and g3<=tol3, record PROJECTION_ONLY; preserve delta8, gJ, uncertainty, projection version, and interaction order independently.",
+          "annotations": [
+            "The fifth coordinate is admitted only when it contains a material residual outside span(C4), has declared meaning, and improves held-out efficacy after compute and energy costs.",
+            "A five-dimensional base plus an S^3 fiber gives local noncollapsed dimension 8, but does not by itself prove the total space is the standard sphere S^8.",
+            "Increasing latent dimension is distinct from adding higher-order coupling: H_ijk is required for genuine triadic mechanics."
+          ]
+        },
+        "original_id": "Corpora(2).zip::deepml-kernel_corpus_10000/deepml-kernel/deepml-kernel_corpus_10000.jsonl"
+      },
+      {
+        "record_id": "DMK-00001",
+        "sequence": 1,
+        "language": "DeepML Kernel Language",
+        "profile_id": "deepml.kernel",
+        "extension": ".dmk",
+        "corpus_version": "0.1.0-provisional",
+        "kernel_version": "ja-kernel-0.3",
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "device_target",
+        "source": "ja source 0.3\nmodule corpus.deepml_kernel.example_00001\nuse DeepMLKernel\npolicy no_network\n\nkernel DMK_00001(input: Tensor<f32>[3,32]) -> Tensor<f32>[3,32]\ntarget gpu\nprecision strict\ndeterminism reproducible\nmemory global\n{\n    parallel for i in 0..3 tile 32 {\n        vectorize 16\n        output[i] = input[i] * 2.0\n    }\n}\nverify bounds with checked\nassert kernel.race_free == true\nemit kernel \"DMK_00001.dmk\"",
+        "semantic_interpretation": {
+          "semantic_id": "sem-2e17611548467298b8e3",
+          "meaning": "Demonstrates device target at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts.",
+          "judgment": "Environment; Policy; {device.cpu} ⊢ node-4c74bc1e02734302630f : KernelArtifact ! {device.npu} ⇒ validated",
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effects": [
+            "device.npu"
+          ],
+          "capabilities": [
+            "device.cpu"
+          ],
+          "policy_decision": "allow",
+          "proof_obligations": []
+        },
+        "ast": {
+          "node_id": "node-4c74bc1e02734302630f",
+          "node_kind": "KernelDecl",
+          "language_id": "deepml.kernel",
+          "module_id": "module-7d59a9d8e89dca45",
+          "source_span": {
+            "line_start": 1,
+            "column_start": 1,
+            "line_end": 19,
+            "column_end": 1
+          },
+          "origin_hash": "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794",
+          "attributes": {
+            "level": "beginner",
+            "validation_class": "positive",
+            "feature": "device_target",
+            "corpus_version": "0.1.0-provisional"
+          },
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effect_set": [
+            "device.npu"
+          ],
+          "capability_requirements": [
+            "device.cpu"
+          ],
+          "semantic_status": "validated",
+          "r12_reference": "r12-2e14ba37424f82e619fb",
+          "mcrt_reference": "mcrt-11fd0625002ece1813c4",
+          "children": [
+            {
+              "role": "domain_construct",
+              "node_id": "node-b4498b659cb1691a2e1e",
+              "kind": "device_target"
+            }
+          ]
+        },
+        "compiler_representation": {
+          "frontend_status": "accepted",
+          "diagnostics": [],
+          "r12": {
+            "record_id": "r12-2e14ba37424f82e619fb",
+            "statement_identity": "DMK-00001",
+            "node_identity": "node-4c74bc1e02734302630f",
+            "language_profile": "deepml.kernel",
+            "semantic_operator": "store",
+            "sequence": 1,
+            "dependencies": [],
+            "type": "KernelArtifact",
+            "effects": [
+              "device.npu"
+            ],
+            "capabilities": [
+              "device.cpu"
+            ],
+            "policy_decision": "allow",
+            "input_hashes": [
+              "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794"
+            ],
+            "output_hashes": [
+              "a326e25a25780eb22b06c7f92d8d55d6e72e28fcf954fd882d71aed9bb136c2a"
+            ],
+            "state": "lowered",
+            "error_status": "error0",
+            "confidence": 1.0,
+            "proof_status": "satisfied",
+            "source_location": {
+              "record_id": "DMK-00001",
+              "line": "1",
+              "column": "1"
+            },
+            "mcrt_reference": "mcrt-11fd0625002ece1813c4",
+            "canonical_tuple": "<v00001, phi_deepml_kernel, s00001, d0, rho:deepml.kernel.record_00001, operator:store, OMEGA_DMK_store, state:integrated, error0, theta00001, confidence1.0000, status:stable>"
+          },
+          "artifact": "DMK-00001.dmk.artifact"
+        },
+        "runtime_representation": {
+          "runtime": "DeepML Device Runtime",
+          "execution_mode": "deterministic-test",
+          "result": "success",
+          "expected_output": "DMK-00001:device_target:complete",
+          "effects_observed": [
+            "device.npu"
+          ],
+          "capabilities_consumed": [
+            "device.cpu"
+          ],
+          "sandbox": {
+            "network": "explicit-only",
+            "unknown_code_execution": false,
+            "secret_redaction": true
+          },
+          "mcrt": {
+            "record_id": "mcrt-11fd0625002ece1813c4",
+            "record_type": "LEARN_R12",
+            "schema_version": "mcrt-0.3",
+            "profile": "deepml.kernel",
+            "source_hash": "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794",
+            "ast_node": "node-4c74bc1e02734302630f",
+            "semantic_judgment": "sem-2e17611548467298b8e3",
+            "r12_record": "r12-2e14ba37424f82e619fb",
+            "sequence": 1,
+            "causal_parents": [],
+            "determinism_class": "R3-Deterministic",
+            "policy_status": "allowed",
+            "confidence": 1.0,
+            "certification_status": "pass",
+            "canonical_record": "LEARN_R12 id=00001 vector=v00001 category=deepml-kernel op=store key=deepml.kernel.record_00001 value=\"device_target:positive:deterministic-static-no-hidden-network\" depth=0 confidence=1.0000 status=stable"
+          }
+        },
+        "technical_explanation": "Demonstrates device target at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution.",
+        "validation_result": {
+          "expected_status": "pass",
+          "actual_status": "modeled_not_executed",
+          "class": "positive",
+          "diagnostic_code": null,
+          "checks": {
+            "source_present": true,
+            "semantic_interpretation_present": true,
+            "ast_contract_complete": true,
+            "r12_present": true,
+            "mcrt_present": true,
+            "capability_path_explicit": true,
+            "secret_redaction_required": true,
+            "determinism_declared": true
+          },
+          "note": "Expected validation result generated from the corpus specification; no production compiler was available for execution."
+        },
+        "optimization_notes": [
+          "Preserve semantic equivalence for operator `store`.",
+          "Do not remove capability checks or policy decisions.",
+          "Retain stable node, R12, and MCRT identities after canonicalization."
+        ],
+        "_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "q_n": "sin^2(pi*tau/T+phi_n)",
+          "phase": "dphi_n/dtau=omega_n+K sum_m A_nm sin(phi_m-phi_n)",
+          "pair": "d4=||c_i-c_j||; g4=d4-(r_i+r_j); g3=projected mesh gap",
+          "class": "AMBIGUOUS first; else NONE/PROJECTION_ONLY/TRUE_4D/VISIBLE_TRUE_4D",
+          "R12": [
+            "rho",
+            "o",
+            "psi"
+          ],
+          "Example:": "g4>tol4 and g3<-tol3 => PROJECTION_ONLY",
+          "annotation": "Requires centers, radii, Pi(tau), g3, A_nm, K, omega_n, phases, timestep, and replay ID."
+        }
+      },
+      {
+        "record_id": "DMK-00002",
+        "sequence": 2,
+        "language": "DeepML Kernel Language",
+        "profile_id": "deepml.kernel",
+        "extension": ".dmk",
+        "corpus_version": "0.1.0-provisional",
+        "kernel_version": "ja-kernel-0.3",
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "barrier",
+        "source": "ja source 0.3\nmodule corpus.deepml_kernel.example_00002\nuse DeepMLKernel\npolicy no_network\n\nkernel DMK_00002(input: Tensor<f32>[4,48]) -> Tensor<f32>[4,48]\ntarget npu\nprecision strict\ndeterminism reproducible\nmemory global\n{\n    parallel for i in 0..4 tile 32 {\n        vectorize 16\n        output[i] = input[i] * 3.0\n    }\n}\nverify bounds with checked\nassert kernel.race_free == true\nemit kernel \"DMK_00002.dmk\"",
+        "semantic_interpretation": {
+          "semantic_id": "sem-6191269266af2f73a6bf",
+          "meaning": "Demonstrates barrier at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts.",
+          "judgment": "Environment; Policy; {ledger.append} ⊢ node-2fd30956ee06c3d5c976 : KernelArtifact ! {ledger.append} ⇒ validated",
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effects": [
+            "ledger.append"
+          ],
+          "capabilities": [
+            "ledger.append"
+          ],
+          "policy_decision": "allow",
+          "proof_obligations": []
+        },
+        "ast": {
+          "node_id": "node-2fd30956ee06c3d5c976",
+          "node_kind": "KernelDecl",
+          "language_id": "deepml.kernel",
+          "module_id": "module-7d59a9d8e89dca45",
+          "source_span": {
+            "line_start": 1,
+            "column_start": 1,
+            "line_end": 19,
+            "column_end": 1
+          },
+          "origin_hash": "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d",
+          "attributes": {
+            "level": "beginner",
+            "validation_class": "positive",
+            "feature": "barrier",
+            "corpus_version": "0.1.0-provisional"
+          },
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effect_set": [
+            "ledger.append"
+          ],
+          "capability_requirements": [
+            "ledger.append"
+          ],
+          "semantic_status": "validated",
+          "r12_reference": "r12-3dee2859866a66765d97",
+          "mcrt_reference": "mcrt-536e72b57197f4c3aa84",
+          "children": [
+            {
+              "role": "domain_construct",
+              "node_id": "node-ddeb390c070608647b5a",
+              "kind": "barrier"
+            }
+          ]
+        },
+        "compiler_representation": {
+          "frontend_status": "accepted",
+          "diagnostics": [],
+          "r12": {
+            "record_id": "r12-3dee2859866a66765d97",
+            "statement_identity": "DMK-00002",
+            "node_identity": "node-2fd30956ee06c3d5c976",
+            "language_profile": "deepml.kernel",
+            "semantic_operator": "kernel_declare",
+            "sequence": 2,
+            "dependencies": [],
+            "type": "KernelArtifact",
+            "effects": [
+              "ledger.append"
+            ],
+            "capabilities": [
+              "ledger.append"
+            ],
+            "policy_decision": "allow",
+            "input_hashes": [
+              "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d"
+            ],
+            "output_hashes": [
+              "975a6edbcd5e7e5926d265841b6ef2ec77b135752125ba271be74b480efbfa03"
+            ],
+            "state": "lowered",
+            "error_status": "error0",
+            "confidence": 1.0,
+            "proof_status": "satisfied",
+            "source_location": {
+              "record_id": "DMK-00002",
+              "line": "1",
+              "column": "1"
+            },
+            "mcrt_reference": "mcrt-536e72b57197f4c3aa84",
+            "canonical_tuple": "<v00002, phi_deepml_kernel, s00002, d0, rho:deepml.kernel.record_00002, operator:kernel_declare, OMEGA_DMK_kernel_declare, state:integrated, error0, theta00002, confidence1.0000, status:stable>"
+          },
+          "artifact": "DMK-00002.dmk.artifact"
+        },
+        "runtime_representation": {
+          "runtime": "DeepML Device Runtime",
+          "execution_mode": "deterministic-test",
+          "result": "success",
+          "expected_output": "DMK-00002:barrier:complete",
+          "effects_observed": [
+            "ledger.append"
+          ],
+          "capabilities_consumed": [
+            "ledger.append"
+          ],
+          "sandbox": {
+            "network": "explicit-only",
+            "unknown_code_execution": false,
+            "secret_redaction": true
+          },
+          "mcrt": {
+            "record_id": "mcrt-536e72b57197f4c3aa84",
+            "record_type": "LEARN_R12",
+            "schema_version": "mcrt-0.3",
+            "profile": "deepml.kernel",
+            "source_hash": "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d",
+            "ast_node": "node-2fd30956ee06c3d5c976",
+            "semantic_judgment": "sem-6191269266af2f73a6bf",
+            "r12_record": "r12-3dee2859866a66765d97",
+            "sequence": 2,
+            "causal_parents": [],
+            "determinism_class": "R3-Deterministic",
+            "policy_status": "allowed",
+            "confidence": 1.0,
+            "certification_status": "pass",
+            "canonical_record": "LEARN_R12 id=00002 vector=v00002 category=deepml-kernel op=kernel_declare key=deepml.kernel.record_00002 value=\"barrier:positive:deterministic-static-no-hidden-network\" depth=0 confidence=1.0000 status=stable"
+          }
+        },
+        "technical_explanation": "Demonstrates barrier at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution.",
+        "validation_result": {
+          "expected_status": "pass",
+          "actual_status": "modeled_not_executed",
+          "class": "positive",
+          "diagnostic_code": null,
+          "checks": {
+            "source_present": true,
+            "semantic_interpretation_present": true,
+            "ast_contract_complete": true,
+            "r12_present": true,
+            "mcrt_present": true,
+            "capability_path_explicit": true,
+            "secret_redaction_required": true,
+            "determinism_declared": true
+          },
+          "note": "Expected validation result generated from the corpus specification; no production compiler was available for execution."
+        },
+        "optimization_notes": [
+          "Preserve semantic equivalence for operator `kernel_declare`.",
+          "Do not remove capability checks or policy decisions.",
+          "Retain stable node, R12, and MCRT identities after canonicalization."
+        ],
+        "_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "q_n": "sin^2(pi*tau/T+phi_n)",
+          "phase": "dphi_n/dtau=omega_n+K sum_m A_nm sin(phi_m-phi_n)",
+          "pair": "d4=||c_i-c_j||; g4=d4-(r_i+r_j); g3=projected mesh gap",
+          "class": "AMBIGUOUS first; else NONE/PROJECTION_ONLY/TRUE_4D/VISIBLE_TRUE_4D",
+          "R12": [
+            "rho",
+            "o",
+            "psi"
+          ],
+          "Example:": "g4>tol4 and g3<-tol3 => PROJECTION_ONLY",
+          "annotation": "Requires centers, radii, Pi(tau), g3, A_nm, K, omega_n, phases, timestep, and replay ID."
+        }
+      }
+    ]
+  },
+  {
+    "path": "payload/JA21-DeepML-Kernel-Language-Suite-1.0.0-main/JA21_DMK_Suite_1.0.0.expanded/JA21_DMK_Suite_1.0.0/corpus/technical/JA21_DMK_TECHNICAL_CORPUS_10000.jsonl.gz",
+    "records": 10000,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 59698341,
+    "uncompressed_sha256": "7e5dad68e86b0e438c0c1af6c1ff5feec39d00871e74e0c5f0c415b6cbc7736c",
+    "key_counts": {
+      "record_id": 10000,
+      "sequence": 10000,
+      "language": 10000,
+      "profile_id": 10000,
+      "extension": 10000,
+      "corpus_version": 10000,
+      "kernel_version": 10000,
+      "level": 10000,
+      "validation_class": 10000,
+      "feature": 10000,
+      "source": 10000,
+      "semantic_interpretation": 10000,
+      "ast": 10000,
+      "compiler_representation": 10000,
+      "runtime_representation": 10000,
+      "technical_explanation": 10000,
+      "validation_result": 10000,
+      "optimization_notes": 10000,
+      "_coupling_mechanics": 10000
+    },
+    "field_types": {
+      "record_id": {
+        "str": 10000
+      },
+      "sequence": {
+        "int": 10000
+      },
+      "language": {
+        "str": 10000
+      },
+      "profile_id": {
+        "str": 10000
+      },
+      "extension": {
+        "str": 10000
+      },
+      "corpus_version": {
+        "str": 10000
+      },
+      "kernel_version": {
+        "str": 10000
+      },
+      "level": {
+        "str": 10000
+      },
+      "validation_class": {
+        "str": 10000
+      },
+      "feature": {
+        "str": 10000
+      },
+      "source": {
+        "str": 10000
+      },
+      "semantic_interpretation": {
+        "dict": 10000
+      },
+      "ast": {
+        "dict": 10000
+      },
+      "compiler_representation": {
+        "dict": 10000
+      },
+      "runtime_representation": {
+        "dict": 10000
+      },
+      "technical_explanation": {
+        "str": 10000
+      },
+      "validation_result": {
+        "dict": 10000
+      },
+      "optimization_notes": {
+        "list": 10000
+      },
+      "_coupling_mechanics": {
+        "dict": 10000
+      }
+    },
+    "profiles": {
+      "language=DeepML Kernel Language": 10000
+    },
+    "samples": [
+      {
+        "record_id": "DMK-00001",
+        "sequence": 1,
+        "language": "DeepML Kernel Language",
+        "profile_id": "deepml.kernel",
+        "extension": ".dmk",
+        "corpus_version": "0.1.0-provisional",
+        "kernel_version": "ja-kernel-0.3",
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "device_target",
+        "source": "ja source 0.3\nmodule corpus.deepml_kernel.example_00001\nuse DeepMLKernel\npolicy no_network\n\nkernel DMK_00001(input: Tensor<f32>[3,32]) -> Tensor<f32>[3,32]\ntarget gpu\nprecision strict\ndeterminism reproducible\nmemory global\n{\n    parallel for i in 0..3 tile 32 {\n        vectorize 16\n        output[i] = input[i] * 2.0\n    }\n}\nverify bounds with checked\nassert kernel.race_free == true\nemit kernel \"DMK_00001.dmk\"",
+        "semantic_interpretation": {
+          "semantic_id": "sem-2e17611548467298b8e3",
+          "meaning": "Demonstrates device target at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts.",
+          "judgment": "Environment; Policy; {device.cpu} ⊢ node-4c74bc1e02734302630f : KernelArtifact ! {device.npu} ⇒ validated",
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effects": [
+            "device.npu"
+          ],
+          "capabilities": [
+            "device.cpu"
+          ],
+          "policy_decision": "allow",
+          "proof_obligations": []
+        },
+        "ast": {
+          "node_id": "node-4c74bc1e02734302630f",
+          "node_kind": "KernelDecl",
+          "language_id": "deepml.kernel",
+          "module_id": "module-7d59a9d8e89dca45",
+          "source_span": {
+            "line_start": 1,
+            "column_start": 1,
+            "line_end": 19,
+            "column_end": 1
+          },
+          "origin_hash": "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794",
+          "attributes": {
+            "level": "beginner",
+            "validation_class": "positive",
+            "feature": "device_target",
+            "corpus_version": "0.1.0-provisional"
+          },
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effect_set": [
+            "device.npu"
+          ],
+          "capability_requirements": [
+            "device.cpu"
+          ],
+          "semantic_status": "validated",
+          "r12_reference": "r12-2e14ba37424f82e619fb",
+          "mcrt_reference": "mcrt-11fd0625002ece1813c4",
+          "children": [
+            {
+              "role": "domain_construct",
+              "node_id": "node-b4498b659cb1691a2e1e",
+              "kind": "device_target"
+            }
+          ]
+        },
+        "compiler_representation": {
+          "frontend_status": "accepted",
+          "diagnostics": [],
+          "r12": {
+            "record_id": "r12-2e14ba37424f82e619fb",
+            "statement_identity": "DMK-00001",
+            "node_identity": "node-4c74bc1e02734302630f",
+            "language_profile": "deepml.kernel",
+            "semantic_operator": "store",
+            "sequence": 1,
+            "dependencies": [],
+            "type": "KernelArtifact",
+            "effects": [
+              "device.npu"
+            ],
+            "capabilities": [
+              "device.cpu"
+            ],
+            "policy_decision": "allow",
+            "input_hashes": [
+              "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794"
+            ],
+            "output_hashes": [
+              "a326e25a25780eb22b06c7f92d8d55d6e72e28fcf954fd882d71aed9bb136c2a"
+            ],
+            "state": "lowered",
+            "error_status": "error0",
+            "confidence": 1.0,
+            "proof_status": "satisfied",
+            "source_location": {
+              "record_id": "DMK-00001",
+              "line": "1",
+              "column": "1"
+            },
+            "mcrt_reference": "mcrt-11fd0625002ece1813c4",
+            "canonical_tuple": "<v00001, phi_deepml_kernel, s00001, d0, rho:deepml.kernel.record_00001, operator:store, OMEGA_DMK_store, state:integrated, error0, theta00001, confidence1.0000, status:stable>"
+          },
+          "artifact": "DMK-00001.dmk.artifact"
+        },
+        "runtime_representation": {
+          "runtime": "DeepML Device Runtime",
+          "execution_mode": "deterministic-test",
+          "result": "success",
+          "expected_output": "DMK-00001:device_target:complete",
+          "effects_observed": [
+            "device.npu"
+          ],
+          "capabilities_consumed": [
+            "device.cpu"
+          ],
+          "sandbox": {
+            "network": "explicit-only",
+            "unknown_code_execution": false,
+            "secret_redaction": true
+          },
+          "mcrt": {
+            "record_id": "mcrt-11fd0625002ece1813c4",
+            "record_type": "LEARN_R12",
+            "schema_version": "mcrt-0.3",
+            "profile": "deepml.kernel",
+            "source_hash": "16dfa1562fef5c97050ff2105737ecc8992e30b76dec093f32d0abf8bd043794",
+            "ast_node": "node-4c74bc1e02734302630f",
+            "semantic_judgment": "sem-2e17611548467298b8e3",
+            "r12_record": "r12-2e14ba37424f82e619fb",
+            "sequence": 1,
+            "causal_parents": [],
+            "determinism_class": "R3-Deterministic",
+            "policy_status": "allowed",
+            "confidence": 1.0,
+            "certification_status": "pass",
+            "canonical_record": "LEARN_R12 id=00001 vector=v00001 category=deepml-kernel op=store key=deepml.kernel.record_00001 value=\"device_target:positive:deterministic-static-no-hidden-network\" depth=0 confidence=1.0000 status=stable"
+          }
+        },
+        "technical_explanation": "Demonstrates device target at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution.",
+        "validation_result": {
+          "expected_status": "pass",
+          "actual_status": "modeled_not_executed",
+          "class": "positive",
+          "diagnostic_code": null,
+          "checks": {
+            "source_present": true,
+            "semantic_interpretation_present": true,
+            "ast_contract_complete": true,
+            "r12_present": true,
+            "mcrt_present": true,
+            "capability_path_explicit": true,
+            "secret_redaction_required": true,
+            "determinism_declared": true
+          },
+          "note": "Expected validation result generated from the corpus specification; no production compiler was available for execution."
+        },
+        "optimization_notes": [
+          "Preserve semantic equivalence for operator `store`.",
+          "Do not remove capability checks or policy decisions.",
+          "Retain stable node, R12, and MCRT identities after canonicalization."
+        ],
+        "_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "q_n": "sin^2(pi*tau/T+phi_n)",
+          "phase": "dphi_n/dtau=omega_n+K sum_m A_nm sin(phi_m-phi_n)",
+          "pair": "d4=||c_i-c_j||; g4=d4-(r_i+r_j); g3=projected mesh gap",
+          "class": "AMBIGUOUS first; else NONE/PROJECTION_ONLY/TRUE_4D/VISIBLE_TRUE_4D",
+          "R12": [
+            "rho",
+            "o",
+            "psi"
+          ],
+          "Example:": "g4>tol4 and g3<-tol3 => PROJECTION_ONLY",
+          "annotation": "Requires centers, radii, Pi(tau), g3, A_nm, K, omega_n, phases, timestep, and replay ID."
+        }
+      },
+      {
+        "record_id": "DMK-00002",
+        "sequence": 2,
+        "language": "DeepML Kernel Language",
+        "profile_id": "deepml.kernel",
+        "extension": ".dmk",
+        "corpus_version": "0.1.0-provisional",
+        "kernel_version": "ja-kernel-0.3",
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "barrier",
+        "source": "ja source 0.3\nmodule corpus.deepml_kernel.example_00002\nuse DeepMLKernel\npolicy no_network\n\nkernel DMK_00002(input: Tensor<f32>[4,48]) -> Tensor<f32>[4,48]\ntarget npu\nprecision strict\ndeterminism reproducible\nmemory global\n{\n    parallel for i in 0..4 tile 32 {\n        vectorize 16\n        output[i] = input[i] * 3.0\n    }\n}\nverify bounds with checked\nassert kernel.race_free == true\nemit kernel \"DMK_00002.dmk\"",
+        "semantic_interpretation": {
+          "semantic_id": "sem-6191269266af2f73a6bf",
+          "meaning": "Demonstrates barrier at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts.",
+          "judgment": "Environment; Policy; {ledger.append} ⊢ node-2fd30956ee06c3d5c976 : KernelArtifact ! {ledger.append} ⇒ validated",
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effects": [
+            "ledger.append"
+          ],
+          "capabilities": [
+            "ledger.append"
+          ],
+          "policy_decision": "allow",
+          "proof_obligations": []
+        },
+        "ast": {
+          "node_id": "node-2fd30956ee06c3d5c976",
+          "node_kind": "KernelDecl",
+          "language_id": "deepml.kernel",
+          "module_id": "module-7d59a9d8e89dca45",
+          "source_span": {
+            "line_start": 1,
+            "column_start": 1,
+            "line_end": 19,
+            "column_end": 1
+          },
+          "origin_hash": "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d",
+          "attributes": {
+            "level": "beginner",
+            "validation_class": "positive",
+            "feature": "barrier",
+            "corpus_version": "0.1.0-provisional"
+          },
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effect_set": [
+            "ledger.append"
+          ],
+          "capability_requirements": [
+            "ledger.append"
+          ],
+          "semantic_status": "validated",
+          "r12_reference": "r12-3dee2859866a66765d97",
+          "mcrt_reference": "mcrt-536e72b57197f4c3aa84",
+          "children": [
+            {
+              "role": "domain_construct",
+              "node_id": "node-ddeb390c070608647b5a",
+              "kind": "barrier"
+            }
+          ]
+        },
+        "compiler_representation": {
+          "frontend_status": "accepted",
+          "diagnostics": [],
+          "r12": {
+            "record_id": "r12-3dee2859866a66765d97",
+            "statement_identity": "DMK-00002",
+            "node_identity": "node-2fd30956ee06c3d5c976",
+            "language_profile": "deepml.kernel",
+            "semantic_operator": "kernel_declare",
+            "sequence": 2,
+            "dependencies": [],
+            "type": "KernelArtifact",
+            "effects": [
+              "ledger.append"
+            ],
+            "capabilities": [
+              "ledger.append"
+            ],
+            "policy_decision": "allow",
+            "input_hashes": [
+              "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d"
+            ],
+            "output_hashes": [
+              "975a6edbcd5e7e5926d265841b6ef2ec77b135752125ba271be74b480efbfa03"
+            ],
+            "state": "lowered",
+            "error_status": "error0",
+            "confidence": 1.0,
+            "proof_status": "satisfied",
+            "source_location": {
+              "record_id": "DMK-00002",
+              "line": "1",
+              "column": "1"
+            },
+            "mcrt_reference": "mcrt-536e72b57197f4c3aa84",
+            "canonical_tuple": "<v00002, phi_deepml_kernel, s00002, d0, rho:deepml.kernel.record_00002, operator:kernel_declare, OMEGA_DMK_kernel_declare, state:integrated, error0, theta00002, confidence1.0000, status:stable>"
+          },
+          "artifact": "DMK-00002.dmk.artifact"
+        },
+        "runtime_representation": {
+          "runtime": "DeepML Device Runtime",
+          "execution_mode": "deterministic-test",
+          "result": "success",
+          "expected_output": "DMK-00002:barrier:complete",
+          "effects_observed": [
+            "ledger.append"
+          ],
+          "capabilities_consumed": [
+            "ledger.append"
+          ],
+          "sandbox": {
+            "network": "explicit-only",
+            "unknown_code_execution": false,
+            "secret_redaction": true
+          },
+          "mcrt": {
+            "record_id": "mcrt-536e72b57197f4c3aa84",
+            "record_type": "LEARN_R12",
+            "schema_version": "mcrt-0.3",
+            "profile": "deepml.kernel",
+            "source_hash": "c6baa01a59a26bb67ada44cf24d6d3306fe5c049b3bd3996ff4cae6a205f7a5d",
+            "ast_node": "node-2fd30956ee06c3d5c976",
+            "semantic_judgment": "sem-6191269266af2f73a6bf",
+            "r12_record": "r12-3dee2859866a66765d97",
+            "sequence": 2,
+            "causal_parents": [],
+            "determinism_class": "R3-Deterministic",
+            "policy_status": "allowed",
+            "confidence": 1.0,
+            "certification_status": "pass",
+            "canonical_record": "LEARN_R12 id=00002 vector=v00002 category=deepml-kernel op=kernel_declare key=deepml.kernel.record_00002 value=\"barrier:positive:deterministic-static-no-hidden-network\" depth=0 confidence=1.0000 status=stable"
+          }
+        },
+        "technical_explanation": "Demonstrates barrier at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution.",
+        "validation_result": {
+          "expected_status": "pass",
+          "actual_status": "modeled_not_executed",
+          "class": "positive",
+          "diagnostic_code": null,
+          "checks": {
+            "source_present": true,
+            "semantic_interpretation_present": true,
+            "ast_contract_complete": true,
+            "r12_present": true,
+            "mcrt_present": true,
+            "capability_path_explicit": true,
+            "secret_redaction_required": true,
+            "determinism_declared": true
+          },
+          "note": "Expected validation result generated from the corpus specification; no production compiler was available for execution."
+        },
+        "optimization_notes": [
+          "Preserve semantic equivalence for operator `kernel_declare`.",
+          "Do not remove capability checks or policy decisions.",
+          "Retain stable node, R12, and MCRT identities after canonicalization."
+        ],
+        "_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "q_n": "sin^2(pi*tau/T+phi_n)",
+          "phase": "dphi_n/dtau=omega_n+K sum_m A_nm sin(phi_m-phi_n)",
+          "pair": "d4=||c_i-c_j||; g4=d4-(r_i+r_j); g3=projected mesh gap",
+          "class": "AMBIGUOUS first; else NONE/PROJECTION_ONLY/TRUE_4D/VISIBLE_TRUE_4D",
+          "R12": [
+            "rho",
+            "o",
+            "psi"
+          ],
+          "Example:": "g4>tol4 and g3<-tol3 => PROJECTION_ONLY",
+          "annotation": "Requires centers, radii, Pi(tau), g3, A_nm, K, omega_n, phases, timestep, and replay ID."
+        }
+      },
+      {
+        "record_id": "DMK-00003",
+        "sequence": 3,
+        "language": "DeepML Kernel Language",
+        "profile_id": "deepml.kernel",
+        "extension": ".dmk",
+        "corpus_version": "0.1.0-provisional",
+        "kernel_version": "ja-kernel-0.3",
+        "level": "beginner",
+        "validation_class": "positive",
+        "feature": "autodiff_primitive",
+        "source": "ja source 0.3\nmodule corpus.deepml_kernel.example_00003\nuse DeepMLKernel\npolicy no_network\n\nkernel DMK_00003(input: Tensor<f32>[5,64]) -> Tensor<f32>[5,64]\ntarget cpu\nprecision strict\ndeterminism reproducible\nmemory global\n{\n    parallel for i in 0..5 tile 32 {\n        vectorize 16\n        output[i] = input[i] * 4.0\n    }\n}\nverify bounds with checked\nassert kernel.race_free == true\nemit kernel \"DMK_00003.dmk\"",
+        "semantic_interpretation": {
+          "semantic_id": "sem-73171aad915a65542e33",
+          "meaning": "Demonstrates autodiff primitive at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts.",
+          "judgment": "Environment; Policy; {atomic.write} ⊢ node-0e7f41b21bd46a3136e6 : KernelArtifact ! {device.gpu} ⇒ validated",
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effects": [
+            "device.gpu"
+          ],
+          "capabilities": [
+            "atomic.write"
+          ],
+          "policy_decision": "allow",
+          "proof_obligations": []
+        },
+        "ast": {
+          "node_id": "node-0e7f41b21bd46a3136e6",
+          "node_kind": "KernelDecl",
+          "language_id": "deepml.kernel",
+          "module_id": "module-7d59a9d8e89dca45",
+          "source_span": {
+            "line_start": 1,
+            "column_start": 1,
+            "line_end": 19,
+            "column_end": 1
+          },
+          "origin_hash": "c4f85a63b4882dcf4a546ff7899e6689b04059f656a7495c904c5f88e091dd70",
+          "attributes": {
+            "level": "beginner",
+            "validation_class": "positive",
+            "feature": "autodiff_primitive",
+            "corpus_version": "0.1.0-provisional"
+          },
+          "declared_type": "KernelArtifact",
+          "inferred_type": "KernelArtifact",
+          "effect_set": [
+            "device.gpu"
+          ],
+          "capability_requirements": [
+            "atomic.write"
+          ],
+          "semantic_status": "validated",
+          "r12_reference": "r12-b04dc9a4327fa10f5e80",
+          "mcrt_reference": "mcrt-b2e4f17bda4dbadaa65f",
+          "children": [
+            {
+              "role": "domain_construct",
+              "node_id": "node-d85f61bb972fbf75775e",
+              "kind": "autodiff_primitive"
+            }
+          ]
+        },
+        "compiler_representation": {
+          "frontend_status": "accepted",
+          "diagnostics": [],
+          "r12": {
+            "record_id": "r12-b04dc9a4327fa10f5e80",
+            "statement_identity": "DMK-00003",
+            "node_identity": "node-0e7f41b21bd46a3136e6",
+            "language_profile": "deepml.kernel",
+            "semantic_operator": "barrier",
+            "sequence": 3,
+            "dependencies": [],
+            "type": "KernelArtifact",
+            "effects": [
+              "device.gpu"
+            ],
+            "capabilities": [
+              "atomic.write"
+            ],
+            "policy_decision": "allow",
+            "input_hashes": [
+              "c4f85a63b4882dcf4a546ff7899e6689b04059f656a7495c904c5f88e091dd70"
+            ],
+            "output_hashes": [
+              "7d1853986ab6938ce995ff40f3a6f006839cd3d736600bf4ae40092b919a92e3"
+            ],
+            "state": "lowered",
+            "error_status": "error0",
+            "confidence": 1.0,
+            "proof_status": "satisfied",
+            "source_location": {
+              "record_id": "DMK-00003",
+              "line": "1",
+              "column": "1"
+            },
+            "mcrt_reference": "mcrt-b2e4f17bda4dbadaa65f",
+            "canonical_tuple": "<v00003, phi_deepml_kernel, s00003, d0, rho:deepml.kernel.record_00003, operator:barrier, OMEGA_DMK_barrier, state:integrated, error0, theta00003, confidence1.0000, status:stable>"
+          },
+          "artifact": "DMK-00003.dmk.artifact"
+        },
+        "runtime_representation": {
+          "runtime": "DeepML Device Runtime",
+          "execution_mode": "deterministic-test",
+          "result": "success",
+          "expected_output": "DMK-00003:autodiff_primitive:complete",
+          "effects_observed": [
+            "device.gpu"
+          ],
+          "capabilities_consumed": [
+            "atomic.write"
+          ],
+          "sandbox": {
+            "network": "explicit-only",
+            "unknown_code_execution": false,
+            "secret_redaction": true
+          },
+          "mcrt": {
+            "record_id": "mcrt-b2e4f17bda4dbadaa65f",
+            "record_type": "LEARN_R12",
+            "schema_version": "mcrt-0.3",
+            "profile": "deepml.kernel",
+            "source_hash": "c4f85a63b4882dcf4a546ff7899e6689b04059f656a7495c904c5f88e091dd70",
+            "ast_node": "node-0e7f41b21bd46a3136e6",
+            "semantic_judgment": "sem-73171aad915a65542e33",
+            "r12_record": "r12-b04dc9a4327fa10f5e80",
+            "sequence": 3,
+            "causal_parents": [],
+            "determinism_class": "R3-Deterministic",
+            "policy_status": "allowed",
+            "confidence": 1.0,
+            "certification_status": "pass",
+            "canonical_record": "LEARN_R12 id=00003 vector=v00003 category=deepml-kernel op=barrier key=deepml.kernel.record_00003 value=\"autodiff_primitive:positive:deterministic-static-no-hidden-network\" depth=0 confidence=1.0000 status=stable"
+          }
+        },
+        "technical_explanation": "Demonstrates autodiff primitive at the beginner level for DeepML Kernel Language. The example is classified as positive and is expected to satisfy the shared JA type, effect, capability, policy, R12, and MCRT contracts. The record follows the JA technical-suite pattern of explicit source, semantic judgment, R12 lowering, MCRT provenance, deterministic behavior, stable identity, and no hidden network execution.",
+        "validation_result": {
+          "expected_status": "pass",
+          "actual_status": "modeled_not_executed",
+          "class": "positive",
+          "diagnostic_code": null,
+          "checks": {
+            "source_present": true,
+            "semantic_interpretation_present": true,
+            "ast_contract_complete": true,
+            "r12_present": true,
+            "mcrt_present": true,
+            "capability_path_explicit": true,
+            "secret_redaction_required": true,
+            "determinism_declared": true
+          },
+          "note": "Expected validation result generated from the corpus specification; no production compiler was available for execution."
+        },
+        "optimization_notes": [
+          "Preserve semantic equivalence for operator `barrier`.",
+          "Do not remove capability checks or policy decisions.",
+          "Retain stable node, R12, and MCRT identities after canonicalization."
+        ],
+        "_coupling_mechanics": {
+          "framework": "Smithson 8S Coupled Mechanics v1.0",
+          "q_n": "sin^2(pi*tau/T+phi_n)",
+          "phase": "dphi_n/dtau=omega_n+K sum_m A_nm sin(phi_m-phi_n)",
+          "pair": "d4=||c_i-c_j||; g4=d4-(r_i+r_j); g3=projected mesh gap",
+          "class": "AMBIGUOUS first; else NONE/PROJECTION_ONLY/TRUE_4D/VISIBLE_TRUE_4D",
+          "R12": [
+            "rho",
+            "o",
+            "psi"
+          ],
+          "Example:": "g4>tol4 and g3<-tol3 => PROJECTION_ONLY",
+          "annotation": "Requires centers, radii, Pi(tau), g3, A_nm, K, omega_n, phases, timestep, and replay ID."
+        }
+      }
+    ]
+  }
+]

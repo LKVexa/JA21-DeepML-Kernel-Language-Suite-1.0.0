@@ -1,0 +1,19 @@
+ja source 0.3
+module corpus.deepml_kernel.example_07640
+use DeepMLKernel
+policy no_network
+
+kernel DMK_07640(input: Tensor<f32>[76,1]) -> Tensor<f32>[76,1]
+target npu
+precision strict
+determinism reproducible
+memory global
+{
+    parallel for i in 0..76 tile 1 {
+        vectorize 1
+        output[i] = input[i] * 15.0
+    }
+}
+verify bounds with checked
+assert kernel.race_free == true
+emit kernel "DMK_07640.dmk"

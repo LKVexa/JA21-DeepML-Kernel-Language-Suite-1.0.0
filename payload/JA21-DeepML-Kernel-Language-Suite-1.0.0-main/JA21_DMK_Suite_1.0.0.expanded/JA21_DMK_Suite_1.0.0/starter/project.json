@@ -1,0 +1,10 @@
+{
+  "name": "hello-dmk",
+  "suite_version": "1.0.0",
+  "language_profile": "deepml.kernel",
+  "source": "hello_kernel.dmk",
+  "policy": [
+    "no_network"
+  ],
+  "validation": "modeled_until_native_toolchain_supplied"
+}
