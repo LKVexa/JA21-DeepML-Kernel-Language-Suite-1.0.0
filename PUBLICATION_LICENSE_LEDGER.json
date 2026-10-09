@@ -21,8 +21,8 @@
       "reason": "Requested GPL-3.0-only repository license",
       "original_sha256": null,
       "original_bytes": null,
-      "current_sha256": "5cbb269dd914e115d6ce0a77c538e532d388f5c758b1dcf210a7b2989c4a3cc6",
-      "current_bytes": 35261
+      "current_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "current_bytes": 35149
     },
     {
       "path": "NOTICE",
